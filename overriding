@@ -1,0 +1,23 @@
+class Vehicle {
+    void run() {
+        System.out.println("Types");
+    }
+}
+class Tuktuk extends Vehicle {
+    void run() {
+        System.out.println("3-seater");
+    }
+}
+class Tuktuk1 extends Vehicle {
+    void run() {
+        System.out.println("2-seater");
+    }
+}
+public class main {
+    public static void main(String[]args){
+        Vehicle vehicle1 = new Tuktuk();
+         Vehicle vehicle2 = new Tuktuk1();
+         vehicle1.run();
+           vehicle2.run();
+    }
+}
